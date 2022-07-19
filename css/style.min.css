@@ -1,0 +1,344 @@
+@charset "UTF-8";
+
+* {
+    font-family: Roboto, sans-serif
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    z-index: 2
+}
+
+.menu .menu_link {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100
+}
+
+.menu .menu_item {
+    border-right: 3px dotted #000;
+    padding-right: 40px
+}
+
+header {
+    position: relative;
+    position: fixed;
+    width: 100%
+}
+
+.subheader {
+    height: 84px;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    width: 100%
+}
+
+.subheader .subheader_logo {
+    max-width: 100%;
+    display: block;
+    margin-top: 16px
+}
+
+.subheader .subheader_official {
+    opacity: .6;
+    color: #fff;
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 6px
+}
+
+.subheader .subheader_number {
+    margin-top: 19px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    width: 166px;
+    height: 14px;
+    color: #fff;
+    margin-right: 22px
+}
+
+.subheader .subheader_num {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    width: 187px;
+    height: 68px;
+    line-height: 20px
+}
+
+.subheader .subheader_btn {
+    width: 172px;
+    height: 46px;
+    background: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#1eacc7));
+    background: linear-gradient(0deg, #1eacc7 0, #1eacc7 100%);
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 19px
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../img/uber_bg.png) center center/cover no-repeat;
+    padding: 150px 0 185px 0
+}
+
+.promo .promo_header {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 60px
+}
+
+.promo .promo_subheader {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 36px;
+    margin-top: 22px
+}
+
+.promo .promo_descr {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-top: 16px
+}
+
+.promo .promo_btn {
+    background: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+    background: linear-gradient(0deg, #1eacc7 0, #4ce2ff 100%);
+    -webkit-box-shadow: inset 0 -4px 0 rgba(0, 0, 0, .12);
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, .12);
+    border-radius: 4px;
+    margin: 116px 441px 185px 440px;
+    width: 259px;
+    height: 63px;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .21)
+}
+
+.benefits {
+    min-height: 849px;
+    padding: 20px 0 64px 0
+}
+
+.benefits .benefits_first {
+    width: 120px;
+    height: 21px;
+    background: #000;
+    font-weight: 400;
+    font-size: 11px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.benefits .benefits_subtext {
+    text-align: center;
+    margin-top: 33px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 38px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222
+}
+
+.benefits .benefits_round {
+    margin-left: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 35px;
+    width: 113px;
+    height: 113px;
+    border-radius: 100%;
+    background-color: #1eacc7
+}
+
+.benefits .benefits_subtitle {
+    margin-left: 15px;
+    line-height: 21px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #1eacc7
+}
+
+.benefits .benefits_text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+    margin-left: 15px
+}
+
+.benefits .between {
+    margin-top: 31px;
+    margin-bottom: 20px
+}
+
+.label {
+    text-align: center;
+    width: 120px;
+    height: 21px;
+    background: #000;
+    font-weight: 400;
+    font-size: 11px;
+    color: #fff;
+    margin: 0 auto
+}
+
+.label_white {
+    color: #000;
+    background-color: #fff
+}
+
+.subtext {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 33px;
+    margin-bottom: 1px
+}
+
+.subtext_white {
+    color: #fff
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px
+}
+
+.subtitle_white {
+    color: #fff
+}
+
+.mobile {
+    min-height: 864px;
+    background: url(../img/mobile_bg.png)
+}
+
+.mobile .row {
+    margin-top: 32px
+}
+
+.mobile_item {
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+    padding-top: 92px
+}
+
+.mobile_item_1 {
+    background: url("../img/Карточка 1.png")
+}
+
+.mobile_item_2 {
+    background: url("../img/Карточка 2.png")
+}
+
+.mobile_item_3 {
+    background: url("../img/Карточка 3.png")
+}
+
+.mobile_item_4 {
+    background: url("../img/Карточка 4.png")
+}
+
+.mobile_item_5 {
+    background: url("../img/Карточка 5.png")
+}
+
+.mobile_item_6 {
+    background: url("../img/Карточка 6.png")
+}
+
+.mobile_item_subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #fff;
+}
+
+.mobile_item_plus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 29px;
+    height: 29px;
+    background: #000;
+    border-radius: 100%;
+    margin: 0 auto;
+    left: 50%;
+    cursor: pointer;
+}
+
+.choise {
+    position: relative;
+    min-height: 900px;
+    background: url(../img/mobile_bg.png) center center/cover no-repeat;
+    padding: 56px 0 137px 0;
+}
+
+.choise_img {
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: 56px auto 0 auto;
+}
+
+.choise_descr {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #222;
+}
+
+.choise .black {
+    background-color: #000;
+    position: absolute;
+    z-index: 1;
+    height: 500;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
